@@ -24,10 +24,15 @@ nav {
     align-items: center;
     justify-content: space-between;
     width: 100vw;
-    padding: 15px;
+    padding: 30px;
 }
 
 nav img {
+    background-color: #540B51;
+    padding-left: 20px;
+}
+
+nav > div > button {
     background-color: #540B51;
 }
 
