@@ -43,7 +43,15 @@ header {
 .logo {
     height: 30px;
 }
-
+.bold{
+    font-weight: bolder;
+}
+#trusted-text{
+    padding: 20px 0 20px 0;
+    text-transform: uppercase;
+    letter-spacing: - 0.8px;
+    font-size: 13px;
+}
 .menu {
     display: none;
 }
@@ -77,6 +85,7 @@ header {
 .btn-blue {
     background-color: #4285F4;
     color: white;
+    margin-bottom: 20px;
 
 }
 
@@ -101,4 +110,33 @@ header h1 {
 
 header p {
     margin: 0 0 15px 0px;
+}
+main{
+    background-color: #F3EAE2;
+}
+.big-image {
+    width: 150vw;
+}
+
+#cut-photo {
+    height: 265px;
+    overflow: hidden;
+    
+}
+.companies{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 90px;
+}
+.companies img {
+    height: 30px;
+}
+#conect-img{
+    width: 95vw;
+    margin-top:2vh;
+    margin-bottom: 3vh;;
+}
+.margin-left-text{
+    margin-left: 5vw;
 }
