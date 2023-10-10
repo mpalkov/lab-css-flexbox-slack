@@ -146,10 +146,10 @@ main {
     width: 95vw;
     margin: 2vh 0;
 }
-
-.margin-left-text {
+.margin-left-text  {
     margin: 2vh 5vw;
 }
+
 
 .reverse-column {
     display: flex;
@@ -167,4 +167,7 @@ a {
 
 .arrowlink:after {
     content: '   ' url('../images/icon-arrow-right.png');
+}
+h2{
+    font-size: 1.7em;
 }
