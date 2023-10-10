@@ -14,6 +14,7 @@ footer links grey: #454245
     box-sizing: border-box;
     font-family: Helvetica, sans-serif;
     border-width: 0;
+    
 }
 
 nav {
@@ -43,15 +44,18 @@ header {
 .logo {
     height: 30px;
 }
-.bold{
+
+.bold {
     font-weight: bolder;
 }
-#trusted-text{
+
+#trusted-text {
     padding: 20px 0 20px 0;
     text-transform: uppercase;
     letter-spacing: - 0.8px;
     font-size: 13px;
 }
+
 .menu {
     display: none;
 }
@@ -111,9 +115,12 @@ header h1 {
 header p {
     margin: 0 0 15px 0px;
 }
-main{
+
+main {
     background-color: #F3EAE2;
+    font-weight: bold;
 }
+
 .big-image {
     width: 150vw;
 }
@@ -121,22 +128,43 @@ main{
 #cut-photo {
     height: 265px;
     overflow: hidden;
-    
+
 }
-.companies{
+
+.companies {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     height: 90px;
 }
+
 .companies img {
     height: 30px;
 }
-#conect-img{
+
+.conect-img {
     width: 95vw;
-    margin-top:2vh;
-    margin-bottom: 3vh;;
+    margin: 2vh 0;
 }
-.margin-left-text{
-    margin-left: 5vw;
+
+.margin-left-text {
+    margin: 2vh 5vw;
+}
+
+.reverse-column {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.margin-left {
+    margin: 5vw;
+}
+
+a {
+    text-decoration: none;
+    color: #2E71A6;
+}
+
+.arrowlink:after {
+    content: '   ' url('../images/icon-arrow-right.png');
 }
